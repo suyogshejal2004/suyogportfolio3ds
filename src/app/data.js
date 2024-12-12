@@ -19,26 +19,29 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "JustKolab",
-    description: "Cross-platform collaboration tool for real-time messaging and team management.",
-    date: "2023-09-20",
-    demoLink: "https://play.google.com/store/apps/details?id=com.justkolab",
-  },
-  {
-    id: 2,
-    name: "BVGLens",
-    description: "Facility management app with features like task tracking, budget approvals, and visitor management",
-    date: "2024-11-15",
-    demoLink: "https://play.google.com/store/apps/details?id=com.bvglens",
-  },
-  {
-    id: 3,
-    name: "KompassHR",
-    description: "HRMS app for managing leave requests, attendance, and employee interactions.",
-    date: "2024-02-10",
-    demoLink: "https://play.google.com/store/apps/details?id=com.kompasshr",
-  },
-  {
+    name: "Calculator App",
+    description: "A simple yet powerful cross-platform calculator app with basic arithmetic functions, designed for efficiency and ease of use.",
+    date: "2024-11-20",
+    demoLink: "https://github.com/suyogshejal2004/Calculator-app-",
+},
+
+{
+  id: 2,
+  name: "Pokemon App",
+  description: "A simple React application that displays a list of Pokémon using the PokeAPI. The app showcases Pokémon in a card format with their images, names, heights, and weights, and includes a search functionality for easy access.",
+  date: "2024-08-12", // 4 months ago from today (2023-12-12)
+  demoLink: "https://github.com/suyogshejal2004/Pokemon-app", // Replace with the actual demo link
+}
+,
+{
+  id: 3,
+  name: "Secure To-Do List",
+  description: "A secure to-do list application where users can sign up, log in, and manage their personal tasks. It features user authentication, task management (CRUD operations), password hashing, and AJAX-based dynamic updates.",
+  date: "2023-08-12", // 4 months ago
+  demoLink: "https://github.com/suyogshejal2004/secure-todo-list", // Replace with the actual demo link
+},
+
+   /*{
     id: 4,
     name: "OceanFM",
     description: "Comprehensive facility management system streamlining operations like task assignments, complaint management, and service requests.",
@@ -52,7 +55,7 @@ export const projectsData = [
     date: "2022-07-12",
     demoLink: "no linck",
   },
-  /*{
+ {
     id: 6,
     name: "JourneyLogger",
     description: "Log your travels",

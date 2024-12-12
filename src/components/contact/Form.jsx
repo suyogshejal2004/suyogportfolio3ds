@@ -33,10 +33,10 @@ export default function Form() {
   
     emailjs
       .send(
-        "service_tit96of", // Your Service ID
-        "template_1kx9asa", // Your Template ID
+        "service_aww1i9f", // Your Service ID
+        "template_b1m61pf", // Your Template ID
         params,
-        "Na3vvTPliOqHLHSB3" // Your Public Key
+        "-_zcN-ipd1y83jgod" // Your Public Key
       )
       .then(
         () => {
