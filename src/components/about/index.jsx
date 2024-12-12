@@ -15,15 +15,15 @@ const AboutDetails = () => {
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+          Hi, I’m Baliram Shejal, a passionate and result-driven Software Developer based in Pune, Maharashtra. With over 2.4 years of experience, I specialize in crafting intuitive, high-performance mobile and web applications that bridge technology and user needs.
+
+From developing feature-rich React Native apps to optimizing Android experiences with Jetpack Compose, I bring expertise in building scalable and innovative solutions. My journey includes working on groundbreaking projects like WhatsApp Auto Printing Application, KompassHR, and OceanFM, blending creativity with functionality to exceed expectations.
+
+I’m proficient in TypeScript, Kotlin, and JavaScript, with a strong command of frameworks such as React, Redux Toolkit, and Node.js. My focus on state-of-the-art tools like Firebase, SQLite, and MMKV Storage ensures efficient and reliable performance for every project.
+
+Beyond technical skills, I value seamless user experiences, proactive problem-solving, and clean, maintainable code. Whether it’s designing modern UIs, integrating APIs, or managing notifications and printer systems, I thrive on delivering impactful solutions that drive results.
+
+When I’m not coding, you can find me exploring fitness routines or creating innovative solutions to simplify everyday challenges. Let’s create something amazing together!.
           </p>
         </ItemLayout>
 
@@ -31,7 +31,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            4+ <sub className="font-semibold text-base">clients</sub>
           </p>
         </ItemLayout>
 
@@ -39,7 +39,7 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+{" "}
+            2+{" "}
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
@@ -48,51 +48,61 @@ const AboutDetails = () => {
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
           <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
+           className="w-full h-auto"
+           src={`https://github-readme-stats.vercel.app/api/top-langs/?username=balram-01&size_weight=0.5&count_weight=0.5&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+           alt="CodeBucks"
+           loading="lazy"
+           
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
+           
+           className="w-full h-auto"
+           src="https://github-readme-stats.vercel.app/api?username=balram-01&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_p&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+           alt="GitHub Stats for Balram"
+           loading="lazy"
+         
+         
+        
+         
+           
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
+            src={`https://skillicons.dev/icons?i=js,html,css,react,redux,typescript,nodejs,java,kotlin,git,github,androidstudio,sqlite,firebase,materialui,xcode,razorpay`}
             alt="CodeBucks"
             loading="lazy"
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
+        <img
+  className="w-full h-auto"
+  src="https://streak-stats.demolab.com/?user=balram-01&currStreakNum=2FD3EB&fire=pink&sideLabels=F00&date_format=[Y.]n.j&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
+  alt="GitHub Streak Stats for Balram"
+  loading="lazy"
+/>
+
         </ItemLayout>
+
+
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
+            href="https://github.com/balram-01"
             target="_blank"
             className="w-full"
           >
             <img
-              className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
-              loading="lazy"
+             className="w-full h-auto"
+             src="https://github-readme-stats.vercel.app/api/top-langs/?username=balram-01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+             alt="Top Languages for Balram"
+             loading="lazy"
             />
           </Link>
         </ItemLayout>
