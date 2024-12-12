@@ -96,19 +96,19 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://github.com/balram-01",
+    link: "https://github.com/suyogshejal2004",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/balram01?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://www.linkedin.com/in/suyog-shejal-8637a3316/",
     icon: "linkedin",
     newTab: true,
   },
   {
     label: "X",
-    link: "https://x.com/Balramshejal?t=2Rn57AFAVzSBO4geHmVBRw&s=09",
+    link: "https://x.com/suyog_shejal",
     icon: "twitter",
     newTab: true,
   },
