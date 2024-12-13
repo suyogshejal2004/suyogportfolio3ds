@@ -15,23 +15,23 @@ const AboutDetails = () => {
             Architect of Enchantment
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base">
-            Hi! I'm Suyog Shejal, a passionate and driven Software Developer
+            Hi! I&apos;m Suyog Shejal, a passionate and driven Software Developer
             currently pursuing my BCA at Amrita Vishwa Vidyapeetham. I am eager
             to build and contribute to innovative projects in Android
             development, web development, and problem-solving.
             <br />
-            Although I'm at the beginning of my career, I'm constantly learning
+            Although I&apos;m at the beginning of my career, I&apos;m constantly learning
             and growing. I have a strong foundation in Kotlin, Jetpack Compose,
-            ReactJS, and JavaScript, and I'm always excited to explore new
+            ReactJS, and JavaScript, and I&apos;m always excited to explore new
             technologies. I am dedicated to improving my skills and gaining
             hands-on experience by collaborating on meaningful projects.
             <br />
             I am enthusiastic about taking on challenges that allow me to grow,
-            learn, and push my limits. Whether it's coding, problem-solving, or
+            learn, and push my limits. Whether it&apos;s coding, problem-solving, or
             building applications, I strive to provide quality work and
             contribute to projects that make a positive impact.
             <br />
-            Feel free to reach out if you're interested in collaborating or
+            Feel free to reach out if you&apos;re interested in collaborating or
             have any questions.
           </p>
         </ItemLayout>
@@ -73,7 +73,7 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
-        <img
+          <img
             className="w-full h-auto"
             src={`https://skillicons.dev/icons?i=kotlin,eclipse,react,tailwind,js,html,css,github,git,vscode,androidstudio,idea,java,mysql,py,replit,sqlite,windows`}
             alt="Skills"
@@ -96,7 +96,7 @@ const AboutDetails = () => {
             target="_blank"
             className="w-full"
           >
-           <img
+            <img
               className="w-full h-auto"
               src="https://github-readme-stats.vercel.app/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B"
               alt="Pinned Repo"
